@@ -6,8 +6,10 @@ private repository.
 
 ## Install with QA Dist Manager
 
-Install QA Dist Manager and add this manifest URL to a QuickApp variable whose
-name starts with `manifest`:
+Import `QA_Dist_Manager_iCloud_Location.fqa` for a preconfigured QA Dist Manager
+with an empty `githubToken`. Alternatively, install the official QA Dist Manager
+and add this manifest URL to a QuickApp variable whose name starts with
+`manifest`:
 
 ```text
 https://raw.githubusercontent.com/dkcsn/fibioslocation-hc3-dist/main/dist.json
