@@ -19,12 +19,12 @@ Refresh QA Dist Manager, select **iCloud Location (Dansk)** or
 **iCloud Location (English)**,
 select **Create new instance**, choose the release, and press **Apply**.
 
-Version 1.3.0 can emit native Fibaro `enter`/`leave` geofence events for Scenes
-and EventRunner. An optional dynamic onboarding section links each Find My
-device to the HC3 user on whose behalf events should be emitted. Active links
-are listed in the UI and can be disabled by selecting `No HC3 events`. Each
-geofence child also exposes distance, GPS accuracy, and the latest position
-timestamp. Events are disabled by default in the public packages.
+Version 1.4.0 introduces a workflow-based interface with Overview, Setup, and
+Account. Setup can create geofence binary sensors, distance multilevel sensors,
+and optional HC3 user links for native `enter`/`leave` events. Overview can show
+each device's distance to its nearest HC3 location. Devices without a usable
+position remain collapsed by default, and resetting the Apple session requires
+confirmation. Events and automatic updates are disabled by default.
 
 No GitHub token is required for this public distribution repository.
 
