@@ -3,7 +3,7 @@
   "minVersion": "0.1.10",
   "quickApps": [
     {
-      "name": "iCloud Location",
+      "name": "iCloud Location (Dansk)",
       "uid": "TWF5IHRoZSBGb3JjZSBiZSB3aXRoIHlvdQ",
       "description": "Apple Find My location and iOS geofencing for Fibaro HC3 in Danish.",
       "url": "https://api.github.com/repos/dkcsn/fibioslocation-hc3-dist/",
@@ -12,7 +12,7 @@
       "versionPattern": "APP_VERSION = \"([^\"]+)\""
     },
     {
-      "name": "iCloud Location UK",
+      "name": "iCloud Location (English)",
       "uid": "RG8uIE9yIGRvIG5vdC4gVGhlcmUgaXMgbm8gdHJ5Lg",
       "description": "Apple Find My location and iOS geofencing for Fibaro HC3 in UK English.",
       "url": "https://api.github.com/repos/dkcsn/fibioslocation-hc3-dist/",

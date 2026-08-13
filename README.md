@@ -15,8 +15,14 @@ and add this manifest URL to a QuickApp variable whose name starts with
 https://raw.githubusercontent.com/dkcsn/fibioslocation-hc3-dist/main/dist.json
 ```
 
-Refresh QA Dist Manager, select **iCloud Location** or **iCloud Location UK**,
+Refresh QA Dist Manager, select **iCloud Location (Dansk)** or
+**iCloud Location (English)**,
 select **Create new instance**, choose the release, and press **Apply**.
+
+Version 1.2.0 can emit native Fibaro `enter`/`leave` geofence events for Scenes
+and EventRunner. Set `geofenceUserId` to the numeric HC3 user ID to enable
+events. Each geofence child also exposes distance, GPS accuracy, and the latest
+position timestamp. Events are disabled by default in the public packages.
 
 No GitHub token is required for this public distribution repository.
 
