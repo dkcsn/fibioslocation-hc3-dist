@@ -19,12 +19,13 @@ Refresh QA Dist Manager, select **iCloud Location (Dansk)** or
 **iCloud Location (English)**,
 select **Create new instance**, choose the release, and press **Apply**.
 
-Version 1.4.0 introduces a workflow-based interface with Overview, Setup, and
+Version 1.4.1 uses the workflow-based interface with Overview, Setup, and
 Account. Setup can create geofence binary sensors, distance multilevel sensors,
 and optional HC3 user links for native `enter`/`leave` events. Overview can show
 each device's distance to its nearest HC3 location. Devices without a usable
 position remain collapsed by default, and resetting the Apple session requires
-confirmation. Events and automatic updates are disabled by default.
+confirmation. Device model names are now included wherever a Find My device
+must be identified or linked. Events and automatic updates are disabled by default.
 
 No GitHub token is required for this public distribution repository.
 
